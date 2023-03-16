@@ -14,6 +14,10 @@
                 <behavior>Edit</behavior>
                 <field>Nikita_field__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Una_Test_Demo_field__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
