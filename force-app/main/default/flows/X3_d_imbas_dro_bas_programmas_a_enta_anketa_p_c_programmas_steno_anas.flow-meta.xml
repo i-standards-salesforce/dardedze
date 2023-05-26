@@ -1,0 +1,1494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <name>pageNamesInOrder_Assignment</name>
+        <label>pageNamesInOrder_Assignment</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>pageNamesInOrder</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>welcome_page</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>pageNamesInOrder</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>p_3f12fc92_28c4_4d1d_ba7e_7e54a3fb0056</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>pageNamesInOrder</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>p_71856f6d_177b_4fbc_9a67_a10d5294f3bb</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>pageNamesInOrder</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>p_13e8ee66_cf7d_4580_8e69_7e759dd306c7</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>pageNamesInOrder</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>p_5884c553_e3d8_4c3a_9ab8_3c0ef3c12468</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>pageNamesInOrder</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>p_50084fd1_1271_46cd_be45_e12a3caabf79</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>pageNamesInOrder</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>thank_you_page</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>welcome_page</targetReference>
+        </connector>
+    </assignments>
+    <choices>
+        <name>c_0280b282_b6ea_46d1_9e0e_8d525737f974</name>
+        <choiceText>P&amp;#257;rliecin&amp;#257;ts/-a</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pārliecināts/-a</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_03a11ad0_4f7e_446c_a56e_ec292f037644</name>
+        <choiceText>Ne piekr&amp;#299;tu, ne nepiekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Ne piekrītu, ne nepiekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_03ce8d5d_14d2_4cd7_b187_b61b8db89798</name>
+        <choiceText>Piln&amp;#299;gi nepiekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pilnīgi nepiekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_07e026c6_2700_4e97_9c7e_9111801dc8de</name>
+        <choiceText>Nepiekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Nepiekrītu </stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_082914c8_309c_4552_8008_1e9fd81daf0c</name>
+        <choiceText>Vid&amp;#275;ji</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Vidēji</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_08ae1cd4_fc45_424c_821e_9f5798eed4ee</name>
+        <choiceText>Piekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Piekrītu </stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_08b827a9_09f3_459b_98e4_5d0a446f2d3d</name>
+        <choiceText>h. Cits</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>h. Cits</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_09b51623_3f56_4466_8fc8_88ca724c036c</name>
+        <choiceText>Gr&amp;#363;ti pateikt</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Grūti pateikt</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_0b9d21b7_5712_4d13_8101_7c85eab3fed5</name>
+        <choiceText>Piekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Piekrītu </stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_0bed7d7c_501f_41a3_ba54_06f291f07795</name>
+        <choiceText>Piekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Piekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_0cff4dde_d293_4c90_9213_830cdd6296bd</name>
+        <choiceText>Ne piekr&amp;#299;tu, ne nepiekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Ne piekrītu, ne nepiekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_0dcd8e91_1e87_4b0a_85b7_fba192d7bee1</name>
+        <choiceText>Piekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Piekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_0e0ddd63_d484_4907_9e21_8e1b6f64d845</name>
+        <choiceText>Piln&amp;#299;gi nepiekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pilnīgi nepiekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_0ed05003_ee98_426c_9b6f_7184e5472fd8</name>
+        <choiceText>Piln&amp;#299;gi nepiekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pilnīgi nepiekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_14096a4b_317d_489f_a308_27dcd777d3b7</name>
+        <choiceText>Nemaz</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Nemaz</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_1609ad5d_f652_4dcc_a24c_f2ec84107694</name>
+        <choiceText>Piekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Piekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_17441ce4_9bbf_4ff7_bacd_ec39cd6ae1a0</name>
+        <choiceText>Nepiekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Nepiekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_1746200e_c6cc_477e_b1e1_fde50928a5fd</name>
+        <choiceText>Piln&amp;#299;gi p&amp;#257;rliecin&amp;#257;ts/-a</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pilnīgi pārliecināts/-a</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_184273ff_3e4b_4348_bca2_4d457a1c2c64</name>
+        <choiceText>Piln&amp;#299;gi p&amp;#257;rliecin&amp;#257;ts/-a</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pilnīgi pārliecināts/-a</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_20dd0e94_31e6_4857_b52e_e39d2a65835b</name>
+        <choiceText>Nep&amp;#257;rliecin&amp;#257;ts/-a</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Nepārliecināts/-a</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_21fa149f_7ed7_47d4_928a_93b8af74831a</name>
+        <choiceText>Piekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Piekrītu </stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_26e62249_bf65_4c65_a427_1fde04307c10</name>
+        <choiceText>Piln&amp;#299;gi piekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pilnīgi piekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_279f534d_4166_47b3_95ca_fd0ec799ba29</name>
+        <choiceText>Gr&amp;#363;ti pateikt</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Grūti pateikt</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_27f641ad_111a_471d_a500_9b03ae5db902</name>
+        <choiceText>f. B&amp;#275;rni vair&amp;#257;k st&amp;#257;sta notieko&amp;scaron;o pieaugu&amp;scaron;ajiem, kuriem uzticas</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>f. Bērni vairāk stāsta notiekošo pieaugušajiem, kuriem uzticas</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_29688ffa_3c8e_437c_a714_0f4a69b70dc6</name>
+        <choiceText>Piln&amp;#299;gi piekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pilnīgi piekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_2e5f28b4_ee0b_41ce_ac9e_5de9835e5439</name>
+        <choiceText>Piln&amp;#299;gi piekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pilnīgi piekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_3dd00771_9a47_4557_8d25_50cc0a00c509</name>
+        <choiceText>Nepiekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Nepiekrītu </stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_3e2c181c_edf1_426a_b5af_17b45ad6c484</name>
+        <choiceText>Piln&amp;#299;gi nepiekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pilnīgi nepiekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_3e34bb69_3c18_45f5_b4d2_5418ff933c3f</name>
+        <choiceText>Piln&amp;#299;gi nepiekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pilnīgi nepiekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_3efc8306_7464_4836_9134_d79462e2a0e2</name>
+        <choiceText>c. B&amp;#275;rni ar cie&amp;#326;u attiecas pret cita cilv&amp;#275;ka &amp;#311;erme&amp;#326;a robe&amp;#382;&amp;#257;m</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>c. Bērni ar cieņu attiecas pret cita cilvēka ķermeņa robežām</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_42030796_e361_4c22_ae3b_619636c84795</name>
+        <choiceText>Piln&amp;#299;gi piekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pilnīgi piekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_443d3bc2_8033_414a_8ef8_988208d247c1</name>
+        <choiceText>Piekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Piekrītu </stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_44e5b048_b613_4819_8eaf_c085451bb9ab</name>
+        <choiceText>&amp;#315;oti daudz</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Ļoti daudz</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_4db71055_876d_4471_bc7d_7f1180ddaaea</name>
+        <choiceText>Piekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Piekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_50e3c226_d83b_483d_a459_5655c5434d71</name>
+        <choiceText>Nepiekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Nepiekrītu </stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_52b49ea1_2d6d_4287_aad1_837d3d1db2ab</name>
+        <choiceText>Nep&amp;#257;rliecin&amp;#257;ts/-a</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Nepārliecināts/-a</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_53dd5797_4d32_48c6_9814_2659a7a9293c</name>
+        <choiceText>Piln&amp;#299;gi nep&amp;#257;rliecin&amp;#257;ts/-a</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pilnīgi nepārliecināts/-a</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_56268e0f_6cdc_4ea0_a3d2_cadf7df45da5</name>
+        <choiceText>&amp;#315;oti daudz</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Ļoti daudz</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_5a32d605_44fb_46d3_835c_50473fb6f3cf</name>
+        <choiceText>Piln&amp;#299;gi nep&amp;#257;rliecin&amp;#257;ts/-a</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pilnīgi nepārliecināts/-a</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_5b3bdc1c_30d7_4fc3_8fde_31aa73a1e692</name>
+        <choiceText>Piln&amp;#299;gi piekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pilnīgi piekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_5be629b9_1a84_4d33_8aab_ff3ac518b7a2</name>
+        <choiceText>Ne p&amp;#257;rliecin&amp;#257;ts, ne nep&amp;#257;rliecin&amp;#257;ts</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Ne pārliecināts, ne nepārliecināts</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_61d5a31f_d72e_4198_b4f4_a7dab27f71c8</name>
+        <choiceText>Piekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Piekrītu </stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_61e27c6e_9755_420e_b6b1_22412ee86717</name>
+        <choiceText>Piln&amp;#299;gi piekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pilnīgi piekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_6a2ddb5b_61ea_4a62_ae1b_e6beebd62c9e</name>
+        <choiceText>Piln&amp;#299;gi p&amp;#257;rliecin&amp;#257;ts/-a</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pilnīgi pārliecināts/-a</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_6a64d986_f139_4d28_bf14_85eab3fee163</name>
+        <choiceText>Vid&amp;#275;ji</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Vidēji</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_6e04cd35_c6cf_4600_836f_09d8b2f84ca9</name>
+        <choiceText>Piln&amp;#299;gi piekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pilnīgi piekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_777b0270_8b0d_4028_9166_fba23a583c0d</name>
+        <choiceText>Piln&amp;#299;gi p&amp;#257;rliecin&amp;#257;ts/-a</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pilnīgi pārliecināts/-a</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_790b35cb_fbae_4216_af3a_02ed48b96e16</name>
+        <choiceText>Piln&amp;#299;gi nep&amp;#257;rliecin&amp;#257;ts/-a</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pilnīgi nepārliecināts/-a</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_7af7edcf_2ea0_47be_b2ae_7bdfc76e3641</name>
+        <choiceText>d. B&amp;#275;rni ar cie&amp;#326;u attiecas pret savu &amp;#311;ermeni</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue> d. Bērni ar cieņu attiecas pret savu ķermeni</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_7efe5f07_c7ea_47aa_823b_abc0cd4e7b79</name>
+        <choiceText>Piln&amp;#299;gi piekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pilnīgi piekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_82c57a08_7669_44e6_9fec_86df3da4c27c</name>
+        <choiceText>e. B&amp;#275;rni atkl&amp;#257;ti iebilst, ja vi&amp;#326;iem situ&amp;#257;cija ir nepat&amp;#299;kama</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>e. Bērni atklāti iebilst, ja viņiem situācija ir nepatīkama</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_82ec26ee_efee_4ce6_8f01_5a8f2b6818c5</name>
+        <choiceText>Nepiekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Nepiekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_8650258d_3e3c_4dad_ae4a_1006d89c718b</name>
+        <choiceText>Nedaudz</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Nedaudz</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_86fe9886_10f6_49a1_9a97_3e48e0df4523</name>
+        <choiceText>Piln&amp;#299;gi nepiekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pilnīgi nepiekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_8a4c6024_dc8a_434f_a168_02e7fda7f7b8</name>
+        <choiceText>Piln&amp;#299;gi p&amp;#257;rliecin&amp;#257;ts/-a</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pilnīgi pārliecināts/-a</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_8ba9ee50_6f75_48c8_bfed_42b1310356ee</name>
+        <choiceText>Piln&amp;#299;gi piekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pilnīgi piekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_8ea4f708_1a50_47f1_b1fb_1b20d8627aec</name>
+        <choiceText>Nepiekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Nepiekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_90e4158b_c963_43c1_a26b_34bb80da69f7</name>
+        <choiceText>Daudz</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Daudz</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_9475dd1b_a110_4339_9567_cf9b6a992870</name>
+        <choiceText>Nep&amp;#257;rliecin&amp;#257;ts/-a</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Nepārliecināts/-a</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_949ccd51_b3f2_4a6e_9065_837be42cb831</name>
+        <choiceText>Daudz</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Daudz</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_94b41b4f_666b_4e18_b0f6_f3fc215de7be</name>
+        <choiceText>Piln&amp;#299;gi nepiekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pilnīgi nepiekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_94e1b892_b223_486c_a3af_7c254c8173fa</name>
+        <choiceText>Piekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Piekrītu </stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_950a1460_1960_4bf7_a26e_e83f3a369b02</name>
+        <choiceText>Piln&amp;#299;gi nepiekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pilnīgi nepiekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_99c4c951_78a8_40f5_8c0a_f3009582f942</name>
+        <choiceText>Nepiekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Nepiekrītu </stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_a561abdb_993b_4fb6_84ef_fb0698195a7e</name>
+        <choiceText>Piekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Piekrītu </stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_a85ecea5_ed16_450a_9ee9_f465efa5d2c3</name>
+        <choiceText>Piln&amp;#299;gi piekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pilnīgi piekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_a8dde8ef_6078_4037_a55e_7505883cc2d0</name>
+        <choiceText>Nepiekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Nepiekrītu </stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_b4421cd6_9f4c_4f64_a585_f369435bf4c3</name>
+        <choiceText>Nedaudz</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Nedaudz</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_ba09f1b9_6b48_4a12_b82b_16abbe2f40b5</name>
+        <choiceText>Ne piekr&amp;#299;tu, ne nepiekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Ne piekrītu, ne nepiekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_baaa65fe_cb89_4a5a_9e05_e9ebf9270383</name>
+        <choiceText>a. B&amp;#275;rni sav&amp;#257; starp&amp;#257; run&amp;#257; par dro&amp;scaron;&amp;#299;bu attiec&amp;#299;b&amp;#257;s</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>a. Bērni savā starpā runā par drošību attiecībās</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_bddb6a4c_6fe8_4bc7_a87f_8779869a3452</name>
+        <choiceText>Ne p&amp;#257;rliecin&amp;#257;ts, ne nep&amp;#257;rliecin&amp;#257;ts</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Ne pārliecināts, ne nepārliecināts</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_bfe49eeb_009e_45cb_a8c8_a0d8c20465f4</name>
+        <choiceText>Ne piekr&amp;#299;tu, ne nepiekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Ne piekrītu, ne nepiekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_c1181d02_961b_4d10_8784_e795496147f5</name>
+        <choiceText>Ne piekr&amp;#299;tu, ne nepiekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Ne piekrītu, ne nepiekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_c419e5c6_50e9_4c39_8035_b583965e100f</name>
+        <choiceText>Ne piekr&amp;#299;tu, ne nepiekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Ne piekrītu, ne nepiekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_c568a6f8_c437_4694_afbc_c8b9f957e804</name>
+        <choiceText>P&amp;#257;rliecin&amp;#257;ts/-a</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pārliecināts/-a</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_ca8576f2_2dc3_4f58_95a1_32c4c20e0e3f</name>
+        <choiceText>P&amp;#257;rliecin&amp;#257;ts/-a</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pārliecināts/-a</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_d158eecb_6741_471a_98f6_bd32d13a9ae4</name>
+        <choiceText>Ne piekr&amp;#299;tu, ne nepiekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Ne piekrītu, ne nepiekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_d4235b59_e594_4128_8edb_7cb41d828114</name>
+        <choiceText>g. Nezinu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>g. Nezinu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_d68bbb45_65ba_43f3_891d_7c57ef812512</name>
+        <choiceText>Piln&amp;#299;gi nepiekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pilnīgi nepiekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_de13769c_f157_4f7b_939b_7166c61b5e50</name>
+        <choiceText>Ne p&amp;#257;rliecin&amp;#257;ts, ne nep&amp;#257;rliecin&amp;#257;ts</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Ne pārliecināts, ne nepārliecināts</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_deb1bdf8_0dc5_4645_84e4_cedfd58e31c2</name>
+        <choiceText>P&amp;#257;rliecin&amp;#257;ts/-a</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pārliecināts/-a</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_e0f6d89e_1b33_4621_a397_6349adc07cca</name>
+        <choiceText>Ne p&amp;#257;rliecin&amp;#257;ts, ne nep&amp;#257;rliecin&amp;#257;ts</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Ne pārliecināts, ne nepārliecināts</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_e304c321_7e84_4b4a_b342_143faaaf0844</name>
+        <choiceText>Nep&amp;#257;rliecin&amp;#257;ts/-a</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Nepārliecināts/-a</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_e3981f9c_812b_4401_956c_f4f8ab03cbfb</name>
+        <choiceText>Piln&amp;#299;gi nep&amp;#257;rliecin&amp;#257;ts/-a</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pilnīgi nepārliecināts/-a</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_e3a7d12f_58f8_467c_b80c_877558892f7e</name>
+        <choiceText>Ne piekr&amp;#299;tu, ne nepiekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Ne piekrītu, ne nepiekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_e5827402_7653_4321_93a2_14b2063488b5</name>
+        <choiceText>Ne piekr&amp;#299;tu, ne nepiekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Ne piekrītu, ne nepiekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_ec24764d_bd9e_4eb9_b3bb_682d711f45c7</name>
+        <choiceText>Nepiekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Nepiekrītu </stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_ee8bc0ac_6dfd_4dfa_aae9_a7ec9031ab7c</name>
+        <choiceText>Nepiekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Nepiekrītu </stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_f0d6d02e_e7dc_435f_8822_d8e59a529244</name>
+        <choiceText>b. B&amp;#275;rni ir ieciet&amp;#299;g&amp;#257;ki un izturas ar cie&amp;#326;u viens pret otru</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>b. Bērni ir iecietīgāki un izturas ar cieņu viens pret otru</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_f317f61b_e9d3_46ef_aeeb_0205571340d3</name>
+        <choiceText>Ne piekr&amp;#299;tu, ne nepiekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Ne piekrītu, ne nepiekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_f78b8745_68d2_47c8_b89b_bb9123949c67</name>
+        <choiceText>P&amp;#257;rliecin&amp;#257;ts/-a</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pārliecināts/-a</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_f8a36c8e_79c0_4d4d_9751_23d3d2c7bd02</name>
+        <choiceText>Nep&amp;#257;rliecin&amp;#257;ts/-a</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Nepārliecināts/-a</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_f9f894dd_b939_4b60_adbc_5f578cb7d689</name>
+        <choiceText>Piln&amp;#299;gi nepiekr&amp;#299;tu</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pilnīgi nepiekrītu</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_fbb71cf5_4b4f_4349_bf48_341981518693</name>
+        <choiceText>Ne p&amp;#257;rliecin&amp;#257;ts, ne nep&amp;#257;rliecin&amp;#257;ts</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Ne pārliecināts, ne nepārliecināts</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_fd884c90_32f6_47b1_a3f2_d684e8365696</name>
+        <choiceText>Nemaz</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Nemaz</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_fe423f27_16a0_4427_9fd9_53eae9bf129b</name>
+        <choiceText>Piln&amp;#299;gi nep&amp;#257;rliecin&amp;#257;ts/-a</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pilnīgi nepārliecināts/-a</stringValue>
+        </value>
+    </choices>
+    <interviewLabel>3 Džimbas drošības programmas aģenta anketa pēc programmas īstenošanas</interviewLabel>
+    <label>3 Džimbas drošības programmas aģenta anketa pēc programmas īstenošanas</label>
+    <processMetadataValues>
+        <name>BrandingSet</name>
+        <value>
+            <stringValue>sb_X3_d_imbas_dro_bas_programmas_4af3a014_d091_4eaa_a833_a41eeb2125d5</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>advanceThankYouPageEnabled</name>
+        <value>
+            <booleanValue>false</booleanValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>autoProgressEnabled</name>
+        <value>
+            <booleanValue>false</booleanValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>hasWelcomePage</name>
+        <value>
+            <booleanValue>true</booleanValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>isSimpleSurvey</name>
+        <value>
+            <booleanValue>false</booleanValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>overrideActiveVersion</name>
+        <value>
+            <booleanValue>false</booleanValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>surveyType</name>
+        <value>
+            <stringValue>Survey</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Survey</processType>
+    <screens>
+        <name>p_13e8ee66_cf7d_4580_8e69_7e759dd306c7</name>
+        <label>Questionnaire 3</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>p_5884c553_e3d8_4c3a_9ab8_3c0ef3c12468</targetReference>
+        </connector>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_107c22ed_fb7c_4377_88ca_2567f943bf33</name>
+            <choiceReferences>c_56268e0f_6cdc_4ea0_a3d2_cadf7df45da5</choiceReferences>
+            <choiceReferences>c_949ccd51_b3f2_4a6e_9065_837be42cb831</choiceReferences>
+            <choiceReferences>c_082914c8_309c_4552_8008_1e9fd81daf0c</choiceReferences>
+            <choiceReferences>c_8650258d_3e3c_4dad_ae4a_1006d89c718b</choiceReferences>
+            <choiceReferences>c_fd884c90_32f6_47b1_a3f2_d684e8365696</choiceReferences>
+            <choiceReferences>c_279f534d_4166_47b3_95ca_fd0ec799ba29</choiceReferences>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimeRadioButton</extensionName>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;font-size: 16px; font-family: tahoma;&quot;&gt;16. Cik daudz ir m&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;ainījušās bērnu zināšanas par drošību attiecībās? &lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>ComponentChoice</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_a0bbf478_465b_4e0e_92a2_a252bde76d1d</name>
+            <choiceReferences>c_44e5b048_b613_4819_8eaf_c085451bb9ab</choiceReferences>
+            <choiceReferences>c_90e4158b_c963_43c1_a26b_34bb80da69f7</choiceReferences>
+            <choiceReferences>c_6a64d986_f139_4d28_bf14_85eab3fee163</choiceReferences>
+            <choiceReferences>c_b4421cd6_9f4c_4f64_a585_f369435bf4c3</choiceReferences>
+            <choiceReferences>c_14096a4b_317d_489f_a308_27dcd777d3b7</choiceReferences>
+            <choiceReferences>c_09b51623_3f56_4466_8fc8_88ca724c036c</choiceReferences>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimeRadioButton</extensionName>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 16px;&quot;&gt;17. Cik daud&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;z ir mainījusies bērnu uzvedība un rīcība, pielietojot iegūtās zināšanas? &lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>ComponentChoice</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_90198143_472f_4100_b32d_259bc9543137</name>
+            <choiceReferences>c_baaa65fe_cb89_4a5a_9e05_e9ebf9270383</choiceReferences>
+            <choiceReferences>c_f0d6d02e_e7dc_435f_8822_d8e59a529244</choiceReferences>
+            <choiceReferences>c_3efc8306_7464_4836_9134_d79462e2a0e2</choiceReferences>
+            <choiceReferences>c_7af7edcf_2ea0_47be_b2ae_7bdfc76e3641</choiceReferences>
+            <choiceReferences>c_82c57a08_7669_44e6_9fec_86df3da4c27c</choiceReferences>
+            <choiceReferences>c_27f641ad_111a_471d_a500_9b03ae5db902</choiceReferences>
+            <choiceReferences>c_d4235b59_e594_4128_8edb_7cb41d828114</choiceReferences>
+            <choiceReferences>c_08b827a9_09f3_459b_98e4_5d0a446f2d3d</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 16px;&quot;&gt;18. Kuri no šiem bērnu uzvedības aspektiem ir mainījušies, kopš viņi ir pabeiguši Džimbas dr&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;ošības programmu? (Lūdzu, atzīmējiet visas atbilstošās atbildes)&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>MultiSelectCheckboxes</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_ec5ce8ba_2403_4903_be8b_944dd673f6df</name>
+            <dataType>String</dataType>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 16px;&quot;&gt;Lūdzu, sniedziet skaidrojumu, ja izvēlējāties atbildi Cits.&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+            <visibilityRule>
+                <conditionLogic>or</conditionLogic>
+                <conditions>
+                    <processMetadataValues>
+                        <name>inputDataType</name>
+                        <value>
+                            <stringValue>String</stringValue>
+                        </value>
+                    </processMetadataValues>
+                    <processMetadataValues>
+                        <name>leftHandSideType</name>
+                        <value>
+                            <stringValue>MultiChoice</stringValue>
+                        </value>
+                    </processMetadataValues>
+                    <processMetadataValues>
+                        <name>operatorDataType</name>
+                        <value>
+                            <stringValue>String</stringValue>
+                        </value>
+                    </processMetadataValues>
+                    <processMetadataValues>
+                        <name>rightHandSideType</name>
+                        <value>
+                            <stringValue>String</stringValue>
+                        </value>
+                    </processMetadataValues>
+                    <leftValueReference>q_90198143_472f_4100_b32d_259bc9543137</leftValueReference>
+                    <operator>Contains</operator>
+                    <rightValue>
+                        <elementReference>c_08b827a9_09f3_459b_98e4_5d0a446f2d3d</elementReference>
+                    </rightValue>
+                </conditions>
+            </visibilityRule>
+        </fields>
+        <pausedText>To pick up where you left off, refresh this page, or open the survey again.</pausedText>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>p_3f12fc92_28c4_4d1d_ba7e_7e54a3fb0056</name>
+        <label>Questionnaire 1</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>p_71856f6d_177b_4fbc_9a67_a10d5294f3bb</targetReference>
+        </connector>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_d7cfaab1_d0a4_43cf_8aef_df606e831622</name>
+            <choiceReferences>c_950a1460_1960_4bf7_a26e_e83f3a369b02</choiceReferences>
+            <choiceReferences>c_ec24764d_bd9e_4eb9_b3bb_682d711f45c7</choiceReferences>
+            <choiceReferences>c_e5827402_7653_4321_93a2_14b2063488b5</choiceReferences>
+            <choiceReferences>c_a561abdb_993b_4fb6_84ef_fb0698195a7e</choiceReferences>
+            <choiceReferences>c_7efe5f07_c7ea_47aa_823b_abc0cd4e7b79</choiceReferences>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimeRadioButton</extensionName>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 16px;&quot;&gt;1. Jebkurš bērns var kļūt par upuri, arī bērni, ar kuriem es strādāju.&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>ComponentChoice</fieldType>
+            <helpText>Lūdzu, norādiet, cik lielā mērā Jūs piekrītat vai nepiekrītat šādam apgalvojumam</helpText>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_359406f8_9938_4fa0_8311_083a27a94921</name>
+            <choiceReferences>c_03ce8d5d_14d2_4cd7_b187_b61b8db89798</choiceReferences>
+            <choiceReferences>c_99c4c951_78a8_40f5_8c0a_f3009582f942</choiceReferences>
+            <choiceReferences>c_bfe49eeb_009e_45cb_a8c8_a0d8c20465f4</choiceReferences>
+            <choiceReferences>c_08ae1cd4_fc45_424c_821e_9f5798eed4ee</choiceReferences>
+            <choiceReferences>c_8ba9ee50_6f75_48c8_bfed_42b1310356ee</choiceReferences>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimeRadioButton</extensionName>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 16px;&quot;&gt;2. Uzreiz var saprast, vai bērns ar konkrēto cilvēku ir drošībā.&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>ComponentChoice</fieldType>
+            <helpText>Lūdzu, norādiet, cik lielā mērā Jūs piekrītat vai nepiekrītat šādam apgalvojumam</helpText>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_f05ff19e_27c2_4d70_92aa_fb60d25c8900</name>
+            <choiceReferences>c_3e2c181c_edf1_426a_b5af_17b45ad6c484</choiceReferences>
+            <choiceReferences>c_50e3c226_d83b_483d_a459_5655c5434d71</choiceReferences>
+            <choiceReferences>c_e3a7d12f_58f8_467c_b80c_877558892f7e</choiceReferences>
+            <choiceReferences>c_0b9d21b7_5712_4d13_8101_7c85eab3fed5</choiceReferences>
+            <choiceReferences>c_5b3bdc1c_30d7_4fc3_8fde_31aa73a1e692</choiceReferences>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimeRadioButton</extensionName>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 16px;&quot;&gt;3. Saruna ar bērnu par drošību attiecībās var viņu pasargāt.&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>ComponentChoice</fieldType>
+            <helpText>Lūdzu, norādiet, cik lielā mērā Jūs piekrītat vai nepiekrītat šādam apgalvojumam</helpText>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_a98dce5e_4df7_4051_bd43_83ea7989a683</name>
+            <choiceReferences>c_0ed05003_ee98_426c_9b6f_7184e5472fd8</choiceReferences>
+            <choiceReferences>c_ee8bc0ac_6dfd_4dfa_aae9_a7ec9031ab7c</choiceReferences>
+            <choiceReferences>c_d158eecb_6741_471a_98f6_bd32d13a9ae4</choiceReferences>
+            <choiceReferences>c_443d3bc2_8033_414a_8ef8_988208d247c1</choiceReferences>
+            <choiceReferences>c_2e5f28b4_ee0b_41ce_ac9e_5de9835e5439</choiceReferences>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimeRadioButton</extensionName>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 16px;&quot;&gt;4. Atklāta runāšana par vardarbību pret bērnu, dažkārt var nodarīt lielāku ļaunumu.&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>ComponentChoice</fieldType>
+            <helpText>Lūdzu, norādiet, cik lielā mērā Jūs piekrītat vai nepiekrītat šādam apgalvojumam</helpText>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_de30df6a_67c4_45f2_a1b4_9bbee3630854</name>
+            <choiceReferences>c_94b41b4f_666b_4e18_b0f6_f3fc215de7be</choiceReferences>
+            <choiceReferences>c_07e026c6_2700_4e97_9c7e_9111801dc8de</choiceReferences>
+            <choiceReferences>c_c1181d02_961b_4d10_8784_e795496147f5</choiceReferences>
+            <choiceReferences>c_21fa149f_7ed7_47d4_928a_93b8af74831a</choiceReferences>
+            <choiceReferences>c_61e27c6e_9755_420e_b6b1_22412ee86717</choiceReferences>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimeRadioButton</extensionName>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 16px;&quot;&gt;5. Bērns pats nespēj sevi pasargāt bīstamās situācijās, tāpēc nav vērts ar viņu runāt par drošību attiecībās.&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>ComponentChoice</fieldType>
+            <helpText>Lūdzu, norādiet, cik lielā mērā Jūs piekrītat vai nepiekrītat šādam apgalvojumam</helpText>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_16c8c913_698f_4207_beed_48bded56f616</name>
+            <choiceReferences>c_86fe9886_10f6_49a1_9a97_3e48e0df4523</choiceReferences>
+            <choiceReferences>c_3dd00771_9a47_4557_8d25_50cc0a00c509</choiceReferences>
+            <choiceReferences>c_c419e5c6_50e9_4c39_8035_b583965e100f</choiceReferences>
+            <choiceReferences>c_94e1b892_b223_486c_a3af_7c254c8173fa</choiceReferences>
+            <choiceReferences>c_26e62249_bf65_4c65_a427_1fde04307c10</choiceReferences>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimeRadioButton</extensionName>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 16px;&quot;&gt;6. Ir vecāki, ar kuriem nav jēgas runāt par bērna audzināšanu, jo viņi nemainīsies.&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>ComponentChoice</fieldType>
+            <helpText>Lūdzu, norādiet, cik lielā mērā Jūs piekrītat vai nepiekrītat šādam apgalvojumam</helpText>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_8cb7a4c9_4e8d_49cb_8b12_de9228db831e</name>
+            <choiceReferences>c_f9f894dd_b939_4b60_adbc_5f578cb7d689</choiceReferences>
+            <choiceReferences>c_a8dde8ef_6078_4037_a55e_7505883cc2d0</choiceReferences>
+            <choiceReferences>c_ba09f1b9_6b48_4a12_b82b_16abbe2f40b5</choiceReferences>
+            <choiceReferences>c_61d5a31f_d72e_4198_b4f4_a7dab27f71c8</choiceReferences>
+            <choiceReferences>c_42030796_e361_4c22_ae3b_619636c84795</choiceReferences>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimeRadioButton</extensionName>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 16px;&quot;&gt;7. Bērna tiesību aizsardzība nav pedagoga pienākums.&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>ComponentChoice</fieldType>
+            <helpText>Lūdzu, norādiet, cik lielā mērā Jūs piekrītat vai nepiekrītat šādam apgalvojumam</helpText>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_1a5c15e9_24f3_4841_b96e_9a89ae0b5ab3</name>
+            <choiceReferences>c_3e34bb69_3c18_45f5_b4d2_5418ff933c3f</choiceReferences>
+            <choiceReferences>c_82ec26ee_efee_4ce6_8f01_5a8f2b6818c5</choiceReferences>
+            <choiceReferences>c_0cff4dde_d293_4c90_9213_830cdd6296bd</choiceReferences>
+            <choiceReferences>c_0bed7d7c_501f_41a3_ba54_06f291f07795</choiceReferences>
+            <choiceReferences>c_29688ffa_3c8e_437c_a714_0f4a69b70dc6</choiceReferences>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimeRadioButton</extensionName>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;font-size: 16px; font-family: tahoma;&quot;&gt;8. Pēriens, kā disciplinēšanas veids, nekaitē bērnam.&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>ComponentChoice</fieldType>
+            <helpText>Lūdzu, norādiet, cik lielā mērā Jūs piekrītat vai nepiekrītat šādam apgalvojumam</helpText>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_1ad09d69_ceb6_41e7_8d42_417842e0cc39</name>
+            <choiceReferences>c_0e0ddd63_d484_4907_9e21_8e1b6f64d845</choiceReferences>
+            <choiceReferences>c_8ea4f708_1a50_47f1_b1fb_1b20d8627aec</choiceReferences>
+            <choiceReferences>c_03a11ad0_4f7e_446c_a56e_ec292f037644</choiceReferences>
+            <choiceReferences>c_0dcd8e91_1e87_4b0a_85b7_fba192d7bee1</choiceReferences>
+            <choiceReferences>c_a85ecea5_ed16_450a_9ee9_f465efa5d2c3</choiceReferences>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimeRadioButton</extensionName>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;font-size: 16px; font-family: tahoma;&quot;&gt;9. Ņirgāšanās un kaitināšana ir normāla bērnu uzvedība, kas   ar laiku pāriet pati no sevis. Tādēļ tai nav vērts pievērst īpašu uzmanību. &lt;/span&gt;&lt;strong style=&quot;font-size: 12px; font-family: consolas, &amp;quot;lucida console&amp;quot;, &amp;quot;courier new&amp;quot;, monospace;&quot;&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldType>ComponentChoice</fieldType>
+            <helpText>Lūdzu, norādiet, cik lielā mērā Jūs piekrītat vai nepiekrītat šādam apgalvojumam</helpText>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_8d8a2ee5_7b94_48af_afa1_5629b8b6bbb6</name>
+            <choiceReferences>c_d68bbb45_65ba_43f3_891d_7c57ef812512</choiceReferences>
+            <choiceReferences>c_17441ce4_9bbf_4ff7_bacd_ec39cd6ae1a0</choiceReferences>
+            <choiceReferences>c_f317f61b_e9d3_46ef_aeeb_0205571340d3</choiceReferences>
+            <choiceReferences>c_1609ad5d_f652_4dcc_a24c_f2ec84107694</choiceReferences>
+            <choiceReferences>c_6e04cd35_c6cf_4600_836f_09d8b2f84ca9</choiceReferences>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimeRadioButton</extensionName>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;font-size: 16px; font-family: tahoma;&quot;&gt;10. Es vienmēr uztveru nopietni to, ja bērns izsaka bažas un lūdz palīdzību.&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>ComponentChoice</fieldType>
+            <helpText>Lūdzu, norādiet, cik lielā mērā Jūs piekrītat vai nepiekrītat šādam apgalvojumam</helpText>
+            <isRequired>true</isRequired>
+        </fields>
+        <pausedText>To pick up where you left off, refresh this page, or open the survey again.</pausedText>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>p_50084fd1_1271_46cd_be45_e12a3caabf79</name>
+        <label>Acceptance Checkbox</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_1eda439b_de53_43e7_b156_98c367c58a9c</name>
+            <choiceReferences>c_4db71055_876d_4471_bc7d_7f1180ddaaea</choiceReferences>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimeRadioButton</extensionName>
+            <fieldText>&lt;p&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;em style=&quot;font-family: tahoma; font-size: 12px;&quot;&gt;Es piekrītu, ka šī informācija tiek izmantota “Centrs Dardedze” vajadzībām, lai īstenotu un izvērtētu Džimbas drošības programmu.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;</fieldText>
+            <fieldType>ComponentChoice</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <pausedText>To pick up where you left off, refresh this page, or open the survey again.</pausedText>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>p_5884c553_e3d8_4c3a_9ab8_3c0ef3c12468</name>
+        <label>Contact and Account Name</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>p_50084fd1_1271_46cd_be45_e12a3caabf79</targetReference>
+        </connector>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_c0711c34_0c21_4aa5_80a9_1a66a0b9afac</name>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimeShortText</extensionName>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 16px;&quot;&gt;Vārds&lt;/span&gt;&lt;strong style=&quot;font-family: tahoma; font-size: 16px;&quot;&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;font-family: tahoma; font-size: 16px;&quot;&gt; Uzvārds&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>ComponentInput</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_881ad95d_c848_4d4e_b6ec_26d766e9d1a3</name>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimeShortText</extensionName>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 16px;&quot;&gt;Izglītības iestādes nosaukums&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>ComponentInput</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <pausedText>To pick up where you left off, refresh this page, or open the survey again.</pausedText>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>p_71856f6d_177b_4fbc_9a67_a10d5294f3bb</name>
+        <label>Questionnaire 2</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>p_13e8ee66_cf7d_4580_8e69_7e759dd306c7</targetReference>
+        </connector>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_daa348f4_d243_45da_aea1_f866d9ece6cf</name>
+            <choiceReferences>c_e3981f9c_812b_4401_956c_f4f8ab03cbfb</choiceReferences>
+            <choiceReferences>c_e304c321_7e84_4b4a_b342_143faaaf0844</choiceReferences>
+            <choiceReferences>c_de13769c_f157_4f7b_939b_7166c61b5e50</choiceReferences>
+            <choiceReferences>c_f78b8745_68d2_47c8_b89b_bb9123949c67</choiceReferences>
+            <choiceReferences>c_6a2ddb5b_61ea_4a62_ae1b_e6beebd62c9e</choiceReferences>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimeRadioButton</extensionName>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 16px;&quot;&gt;11. Runāt ar kolēģiem par bērnu drošību attiecībās.&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>ComponentChoice</fieldType>
+            <helpText>Lūdzu, norādiet, cik pārliecināta/-s Jūs šobrīd justos, par sekojošu rīcību</helpText>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_af448c37_260b_46ff_9f92_c46c21aa3c55</name>
+            <choiceReferences>c_5a32d605_44fb_46d3_835c_50473fb6f3cf</choiceReferences>
+            <choiceReferences>c_52b49ea1_2d6d_4287_aad1_837d3d1db2ab</choiceReferences>
+            <choiceReferences>c_bddb6a4c_6fe8_4bc7_a87f_8779869a3452</choiceReferences>
+            <choiceReferences>c_c568a6f8_c437_4694_afbc_c8b9f957e804</choiceReferences>
+            <choiceReferences>c_8a4c6024_dc8a_434f_a168_02e7fda7f7b8</choiceReferences>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimeRadioButton</extensionName>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;font-size: 16px; font-family: tahoma;&quot;&gt;12. Runāt ar &lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;vecākiem par bērnu drošību attiecībās.&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>ComponentChoice</fieldType>
+            <helpText>Lūdzu, norādiet, cik pārliecināta/-s Jūs šobrīd justos, par sekojošu rīcību</helpText>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_f50193f9_c20d_4331_801c_75a81905c11a</name>
+            <choiceReferences>c_790b35cb_fbae_4216_af3a_02ed48b96e16</choiceReferences>
+            <choiceReferences>c_20dd0e94_31e6_4857_b52e_e39d2a65835b</choiceReferences>
+            <choiceReferences>c_fbb71cf5_4b4f_4349_bf48_341981518693</choiceReferences>
+            <choiceReferences>c_0280b282_b6ea_46d1_9e0e_8d525737f974</choiceReferences>
+            <choiceReferences>c_184273ff_3e4b_4348_bca2_4d457a1c2c64</choiceReferences>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimeRadioButton</extensionName>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;font-size: 16px; font-family: tahoma;&quot;&gt;13. Turpināt izglī&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;tot bērnus par drošību attiecībās.&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>ComponentChoice</fieldType>
+            <helpText>Lūdzu, norādiet, cik pārliecināta/-s Jūs šobrīd justos, par sekojošu rīcību</helpText>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_d0be0189_d972_40b3_8d19_7e6dc769edc2</name>
+            <choiceReferences>c_fe423f27_16a0_4427_9fd9_53eae9bf129b</choiceReferences>
+            <choiceReferences>c_9475dd1b_a110_4339_9567_cf9b6a992870</choiceReferences>
+            <choiceReferences>c_e0f6d89e_1b33_4621_a397_6349adc07cca</choiceReferences>
+            <choiceReferences>c_ca8576f2_2dc3_4f58_95a1_32c4c20e0e3f</choiceReferences>
+            <choiceReferences>c_777b0270_8b0d_4028_9166_fba23a583c0d</choiceReferences>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimeRadioButton</extensionName>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;font-size: 16px; font-family: tahoma;&quot;&gt;14. Aktīvi rīkoties ikd&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;ienā, lai uzlabotu bērnu drošību attiecībās.&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>ComponentChoice</fieldType>
+            <helpText>Lūdzu, norādiet, cik pārliecināta/-s Jūs šobrīd justos, par sekojošu rīcību</helpText>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_ce6eaa38_b3f9_4fc0_a974_76e89ce904aa</name>
+            <choiceReferences>c_53dd5797_4d32_48c6_9814_2659a7a9293c</choiceReferences>
+            <choiceReferences>c_f8a36c8e_79c0_4d4d_9751_23d3d2c7bd02</choiceReferences>
+            <choiceReferences>c_5be629b9_1a84_4d33_8aab_ff3ac518b7a2</choiceReferences>
+            <choiceReferences>c_deb1bdf8_0dc5_4645_84e4_cedfd58e31c2</choiceReferences>
+            <choiceReferences>c_1746200e_c6cc_477e_b1e1_fde50928a5fd</choiceReferences>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimeRadioButton</extensionName>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;font-size: 16px; font-family: tahoma;&quot;&gt;15. Atklāti r&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;unāt par situācijām, kurās bērna drošība ir apdraudēta. &lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>ComponentChoice</fieldType>
+            <helpText>Lūdzu, norādiet, cik pārliecināta/-s Jūs šobrīd justos, par sekojošu rīcību</helpText>
+            <isRequired>true</isRequired>
+        </fields>
+        <pausedText>To pick up where you left off, refresh this page, or open the survey again.</pausedText>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>welcome_page</name>
+        <label>Welcome Page</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>p_3f12fc92_28c4_4d1d_ba7e_7e54a3fb0056</targetReference>
+        </connector>
+        <fields>
+            <name>welcome_question</name>
+            <extensionName>survey:runtimeWelcome</extensionName>
+            <fieldType>ComponentInstance</fieldType>
+            <inputParameters>
+                <name>label</name>
+                <value>
+                    <stringValue>{!welcome_question_lref_tt}</stringValue>
+                </value>
+            </inputParameters>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <startElementReference>pageNamesInOrder_Assignment</startElementReference>
+    <status>Active</status>
+    <textTemplates>
+        <name>thankYouDescriptionTextTemplate</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text></text>
+    </textTemplates>
+    <textTemplates>
+        <name>thankYouLabelTextTemplate</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;font-family: tahoma; font-size: 22px;&quot;&gt;Paldies par Jūsu iesaisti, atbalstot un palīdzot rūpēties, lai bērni būtu pasargāti no jebkāda veida vardarbības!&lt;/strong&gt;&lt;strong style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;, &amp;quot;Segoe WP&amp;quot;, Tahoma, Arial, sans-serif; font-size: 15px;&quot;&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>welcome_question_lref_tt</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;strong style=&quot;font-size: 22px; font-family: tahoma;&quot;&gt;3 Džimbas drošības programmas aģenta anketa pēc programmas īstenošanas&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 16px;&quot;&gt;“Centrs Dardedze” labprāt vēlreiz noskaidrotu Jūsu zināšanas un uzskatus par bērnu drošību attiecībās ar citiem cilvēkiem, iesaistoties Džimbas drošības programmā. Jūsu atbildes palīdzēs mums saprast, cik efektīva ir šī programma un ko tajā pilnveidot, lai ikviens bērns Latvijā izaugtu droši. Aicinām Jūs sniegt atklātas un godīgas atbildes, tās netiks vērtētas kā pareizas vai nepareizas, mums svarīgs objektīvs vērtējums. Aptaujas aizpildīšana aizņems ne vairāk par 5&amp;nbsp;minūtēm.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 16px;&quot;&gt;Aptaujas dati tiks glabāti drošā sistēmā, un tos izmantos tikai “Centrs Dardedze”, lai pilnvērtīgi īstenotu Džimbas drošības programmu.&lt;/span&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <variables>
+        <name>guestUserLang</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>invitationId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>pageNamesInOrder</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>previewMode</name>
+        <dataType>Boolean</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <booleanValue>false</booleanValue>
+        </value>
+    </variables>
+    <variables>
+        <name>thankYouDescription</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue>{!thankYouDescriptionTextTemplate}</stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>thankYouLabel</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue>{!thankYouLabelTextTemplate}</stringValue>
+        </value>
+    </variables>
+</Flow>
